@@ -12,7 +12,7 @@ cd hw6-react-router-app
 
 3. Встановіть залежності:
 npm install
-npm install react-router-dom
+npm install react-router
 
 4. Запустіть проєкт:
 npm run dev
@@ -52,4 +52,4 @@ Contact.jsx – «Контакти»
 🌍 Демо-версія
 Ви можете переглянути розгорнутий додаток за посиланням:
 
-👉 [Demo на Vercel](https://your-vercel-demo.vercel.app)
+👉 [Demo на Vercel](https://hw43react-20072025.vercel.app/)

@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route, Link} from 'react-router';
+import {BrowserRouter, Routes, Route, NavLink} from 'react-router';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
@@ -6,14 +6,14 @@ import './App.css';
 
 function App() {
 
-
   return (
     <BrowserRouter>
+      <h1 className="project-title">Вступ до маршрутизації в React з використанням React Router</h1>
       <nav>
         <ul>
-          <li><Link to="/">Головна</Link></li>
-          <li><Link to="/about">Про нас</Link></li>
-          <li><Link to="/contact">Контакти</Link></li>
+          <li><NavLink to="/" className={({isActive}) => isActive ? 'active-link' : ''}>Головна</NavLink></li>
+          <li><NavLink to="/about" className={({isActive}) => isActive ? 'active-link' : ''}>Про нас</NavLink></li>
+          <li><NavLink to="/contact" className={({isActive}) => isActive ? 'active-link' : ''}>Контакти</NavLink></li>
         </ul>
       </nav>
 

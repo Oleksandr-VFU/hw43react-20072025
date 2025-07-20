@@ -2,7 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <h2>Це контактна сторінка</h2>
+    <div className="page">
+        <h2>Контакти</h2>
+        <p>Зв’яжіться з нами за адресою: email@example.com</p>
+    </div>
+    
   )
 }
 

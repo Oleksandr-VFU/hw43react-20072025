@@ -2,7 +2,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <h2>Це домашня сторінка</h2>
+    <div className="page">
+        <h2>Головна сторінка</h2>
+        <p>Вітаємо на нашому сайті!</p>
+    </div>
   )
 }
 

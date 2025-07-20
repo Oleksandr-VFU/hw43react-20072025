@@ -2,7 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <h2>Це сторінка про нас</h2>
+    <div className="page">
+       <h2>Про нас</h2>
+       <p>Ми команда, яка захоплюється React-розробкою.</p>
+    </div>
+    
   )
 }
 
